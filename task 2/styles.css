@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 0.7rem;
+    padding: 1rem;
+    margin-left: 5vw;
+    color: rgb(93, 93, 93);
+}
+
+.list{
+    display: flex;
+    padding: 1rem;
+    gap: 2vw;
+    color: rgb(146, 146, 146);
+    list-style: none;
+} 
+
+.username {
+    padding: 1rem ;
+    font-size: 0.5rem;
+    color: #25b1f2;
+    background-color: rgb(217, 244, 253);
+    border-radius: 10px;
+    margin-right: 5vw;
+}
+
+.hero{
+    margin: 0 5vw;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5vw;
+}
+
+.right-container{
+    padding: 1rem;
+    width: 45%;
+}
+
+.left-container{
+    padding: 20px;
+    width: 40%;
+    margin-left: 5vw;
+}
+
+.button{
+    background-color: #25b1f2;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 0.5rem;
+    color: white;
+    width: 50%;
+    margin-top: 2vw;
+    text-align: center;
+}
+
+.h1-blue{
+    color: #25b1f2; 
+    font-size: 2.5rem;
+}
+
+.h1-grey{
+    color: rgb(83, 87, 96);
+    font-size: 2.5rem;
+}
+
+.para{
+    color:#959c9fca
+}
